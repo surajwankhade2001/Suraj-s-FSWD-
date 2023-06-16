@@ -1,0 +1,153 @@
+*{
+    margin:0px;
+}
+.top-box{
+    background-color:#11009E;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.navigation-box{
+    height: 60px;
+    width: 800px;
+}
+.navigation-box a{
+    color: white;
+    text-decoration: none;
+}
+.navigation-box ul{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-box ul li{
+    list-style: none;
+    color:white;
+    font-size: 30px;
+}
+.top-box h1{
+    color: white;
+}
+.about-box{
+    background-color: black;
+    height: 600px;
+}
+.about-box h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+}
+.about-row{
+   
+    height: 400px;
+    width: 1100px;
+    margin: auto;
+    display: flex;
+}
+.about-col{
+    
+    width: 45%;
+    height: 100%;  
+    color: white;
+}
+.about-col img{
+    height: 100%;  
+    margin-left: 90px;
+}
+.project{
+    height:1000px ;
+    background-color:#F1F6F9;
+}
+.project h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    font-family: 'Roboto';
+}
+.project ul{
+    font-size: 30px;
+    margin-left: 100px;
+}
+.project ul li{
+    margin-top: 20px;
+}
+.Achievements{
+    background-color: black;
+    height: 600px;
+    color: white;
+    padding: 60px;
+}
+.Achievements h1{
+    text-align: center;
+    font-size: 50px;
+    color: green;
+    /*padding: 20px;*/
+}
+.Achievements ul{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.Contacts{
+    background-color:#F1F6F9;
+    height: auto;
+}
+.Contacts h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+}
+.Contacts-form{
+    background-color: black;
+    width:650px;
+    height:400px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 40px;
+}
+form{
+    color:white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+table{
+    color:white;
+}
+table td{
+   
+    padding: 10px 50px;
+    font-size: 20px;
+
+}
+input{
+    padding: 10px 70px;
+    border-radius: 20px;
+    
+}
+label{
+    font-size: 20px;
+}
+input[type="submit"]{
+    background-color: darkcyan;
+    width: 250px;
+}
+.social-media{
+    background-color: darkcyan;
+    padding: 10px;
+    margin-top: 10px;
+}
+.social-media td{
+    border-right: 1px solid white;
+    padding: 0px 60px;
+}
+.social-media table td:last-child{
+    border-right: none;
+}
+footer{
+    background-color: black;
+    height: 30px;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
